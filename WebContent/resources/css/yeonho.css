@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{				/*  전체  */
+	margin: 0;
+	padding: 0;
+}
+.header-wrapper{
+	text-align: center;
+}
+#logo{
+/* 	width: 160px; */
+ 	margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.category-background {
+    width: 100%;
+    background-color: #faf8f8;
+    height: 60px;
+}
+
+.category-background .category-list {
+    height: 55px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.category-background .category-list .cate-list-item {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+}

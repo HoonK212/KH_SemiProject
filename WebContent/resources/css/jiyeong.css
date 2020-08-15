@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* 전체 컨텐츠 영역 */
+section.wrapper {
+   width: 1300px;
+   margin: 0 auto;
+   height: 1600px;
+/*    background-color: #ffc0cb; */
+}
+
+/* BEST 신메뉴 영역  */
+div.best_new {
+   height: 462px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+/* BEST 신메뉴 헤드라인 영역 */
+div.best_new > h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 46px;
+    padding-top: 30px;
+    margin-bottom: 36px;
+    
+}
+
+/* 슬라이드 전체영역  */
+div.best_new > div.slider_container {
+    height: 330px;
+   overflow: hidden;
+}
+
+
+/* 이미지 목록(ul) */
+div.best_new > div.slider_container > ul[class^="list"] {
+      
+   margin: 0;
+    padding: 0;
+
+/*     vertical-align: baseline; */
+    
+   list-style: none;
+   overflow: hidden;
+   
+/*     position: relative;  */
+   z-index: -1;
+   
+}
+
+
+/* 이미지 항목(li) */
+div.best_new > div.slider_container > ul[class^="list"] > li {
+  
+    width: 280px;
+    height: 330px;
+    float: left; 
+
+    margin-left: 60px; 
+
+/*    display: list-item; */
+}
+
+/* 이미지 항목(li) 중 제일 왼쪽 항목 */
+div.best_new > div.slider_container > ul[class^="list"] > li:first-child {
+   margin-left: 0px;
+}
+
+/* 이미지 영역 */
+div.best_new > div.slider_container > ul[class^="list"] > li img {
+   
+   width: 280px;
+    height: 280px;
+    
+    padding-right: 10px;
+    
+/*     vertical-align: middle; */
+   
+}
+
+div.best_new > div.slider_container > ul[class^="list"] > li > p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+
+}
+
+#arrow_left{
+   position: absolute;
+   z-index: 2;
+   left: 300px;
+   
+}
+
+#arrow_right{
+   position: absolute;
+   z-index: 2;
+   right: 300px;
+}
